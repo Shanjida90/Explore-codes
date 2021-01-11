@@ -1,0 +1,28 @@
+.box {
+    background-color: rgb(167, 0, 117);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-name: putul;
+    animation-iteration-count: infinite;
+}
+
+@keyframes putul {
+    0% {
+        background-color: rgb(223, 223, 59);
+        left: 0;
+        top: 0;
+    }
+    100% {
+        background-color: rgb(135, 194, 228);
+        left: 100px;
+        top: 0;
+    }
+}
+
+.para {
+    display: flex;
+}

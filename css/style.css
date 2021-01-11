@@ -1,0 +1,32 @@
+            table,
+            th,
+            tr,
+            td {
+                border: black solid;
+                border-collapse: collapse;
+                padding: 10px;
+            }
+            
+            nav li {
+                list-style: none;
+                float: left;
+                padding: 10px;
+            }
+            
+            nav a {
+                text-decoration: none;
+                color: white;
+            }
+            
+            nav li:hover {
+                background-color: black;
+                border-radius: 5px;
+            }
+            
+            body {
+                background-color: gray;
+            }
+            
+            nav ul>li:hover>ul {
+                display: none;
+            }

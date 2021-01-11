@@ -1,0 +1,29 @@
+.box {
+    background-color: #663399;
+    height: 200px;
+    width: 200px;
+    border-radius: 300px;
+}
+
+.box:hover {
+    background-color: rgb(238, 172, 224);
+    transform: translatex(200px);
+}
+
+.stage1 .box {
+    transition: 3s;
+}
+
+.stage2 p {
+    border: red solid;
+    width: 190px;
+    height: 90px;
+    overflow: auto;
+    position: fixed;
+    margin-left: 5000px;
+}
+
+.stage2:hover {
+    transform: translate(4000px);
+    transition: 3s;
+}

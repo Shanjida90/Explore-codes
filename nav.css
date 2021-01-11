@@ -1,0 +1,67 @@
+body {
+    background-color: #94be92;
+    font-family: 'Xanh Mono', monospace;
+}
+
+.navigation {
+    border-radius: ;
+}
+
+nav li {
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(204, 121, 121);
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+}
+
+nav ul>li:hover>ul {
+    display: block;
+    padding: 0;
+}
+
+
+/*tags is used for making emergancy list in the left side . i mean the first list name in the bar */
+
+nav>ul>li {
+    float: left;
+}
+
+.home {
+    width: 18px;
+    height: 17px;
+}
+
+.face {
+    height: 15px;
+    width: 20px;
+}
+
+.firstsec {
+    height: 200px;
+}
+
+.picture img {
+    height: 250px;
+    width: 340px;
+    margin-left: -341px;
+    margin-top: 42px
+}
+
+.second {
+    height: 600px;
+    width: 400px;
+    float: right;
+    margin-top: -200px;
+}
+
+.highlight {
+    color: rgb(100, 75, 214);
+}
